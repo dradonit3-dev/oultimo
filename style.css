@@ -11,7 +11,8 @@
     justify-content: center;
     align-items:center;
     padding-top: 15px;
-}
+    border: 2px solid black;
+}    
 
 img{
     width: 200px;
@@ -31,3 +32,26 @@ h2{
 p{
     width: 400px;
 }
+
+h1{display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Times New Roman', serif;
+    font-size: 93px;
+}
+
+footer{
+    width: 200px;
+}
+
+.meta:hover {
+        transform: scale(1.2); 
+    }
+
+    img {
+        width: 150px; 
+    }
+
+    h1 {
+        font-size: 40px;
+    }

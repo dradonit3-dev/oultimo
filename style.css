@@ -1,9 +1,20 @@
+:root{
+--cor-principal: #092328;
+--cor-secundaria: #12544F;
+--cor-terciaria: #2A835F;
+--cor-detalhe: #8BBB92;
+}
+
 .secao-metas{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    background-color: var(--cor-terciaria);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px var(--cor-secundaria);
 }
 
 .meta{
@@ -11,7 +22,8 @@
     justify-content: center;
     align-items:center;
     padding-top: 15px;
-    border: 2px solid black;
+    border: 2px solid var(--cor-detalhe);
+    margin: 15px;
 }    
 
 img{

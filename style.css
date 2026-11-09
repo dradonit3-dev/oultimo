@@ -5,6 +5,17 @@
 --cor-detalhe: #8BBB92;
 }
 
+body{
+    background-image: url(\textura.webp);
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url();
+}
+
 .secao-metas{
     display: flex;
     justify-content: center;
